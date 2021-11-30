@@ -17,7 +17,7 @@
                 "path": "./themes/met_light.json"
             },
             {
-                "id": "Mat's Dark Theme",
+                "label": "Mat's Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/met_dark.json"
               }
