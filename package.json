@@ -14,8 +14,13 @@
             {
                 "label": "Mat's Light Theme",
                 "uiTheme": "vs",
-                "path": "./themes/met_vscode_color_scheme.json"
-            }
+                "path": "./themes/met_light.json"
+            },
+            {
+                "id": "Mat's Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/met_dark.json"
+              }
         ]
     }
 }

@@ -1,0 +1,114 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Mat's Dark Theme",
+	"include": "./solarized-dark-color-theme.json",
+	"tokenColors": [
+		{
+			"name": "Class",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#ebaaff"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"variable.language.dart"
+			],
+			"settings": {
+				"foreground": "#00d9ff"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.property",
+				"variable.other.readwrite",
+				"storage.type.annotation.dart"
+			],
+			"settings": {
+				"foreground": "#00ffb3"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"entity.name.function.member",
+			],
+			"settings": {
+				"foreground": "#b8ff47"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#3be2ff"
+			}
+		},
+		{
+			"name": "Enums",
+			"scope": [
+				"entity.name.type.enum",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#c1ff5d"
+			}
+		},
+		{
+			"name": "Keyword Controls",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#ff9868"
+			}
+		},
+		{
+			"name": "Boolean",
+			"scope": [
+				"constant.language.dart"
+			],
+			"settings": {
+				"foreground": "#ffcc5d"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#ddadad"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#ff7474"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#ff8fd4"
+			}
+		},
+	],
+	"colors": {
+		"editor.background": "#002e3f",
+		"sideBar.background": "#002836"
+	}
+}

@@ -1,7 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Mat's Light Theme",
-	"type": "light",
 	"include": "./light_plus.json",
 	"tokenColors": [
 		{
