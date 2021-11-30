@@ -1,0 +1,21 @@
+{
+    "name": "met-light-theme",
+    "displayName": "met-light-theme",
+    "description": "Mat's Light Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mat's Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/met_vscode_color_scheme.json"
+            }
+        ]
+    }
+}

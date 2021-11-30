@@ -1,0 +1,57 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Mat's Light Theme",
+	"type": "light",
+	"include": "./light_plus.json",
+	"tokenColors": [
+		{
+			"name": "Variables, Constants and enums",
+			"scope": [
+					"variable.other.constant",
+					"variable.other.enummember",
+					"variable"
+			],
+			"settings": {
+					"foreground": "#be007f"
+			}
+		},
+		{
+				"name": "Variables",
+				"scope": [
+						"variable.other.property"
+				],
+				"settings": {
+						"foreground": "#005e94"
+				}
+		},
+		{
+				"name": "Keywords",
+				"scope": [
+						"keyword.control"
+				],
+				"settings": {
+						"foreground": "#8400ff"
+				}
+		},
+		{
+				"name": "Functions",
+				"scope": [
+						"entity.name.function",
+						"support.function"
+				],
+				"settings": {
+						"foreground": "#00027c"
+				}
+		},
+		{
+				"name": "Class",
+				"scope": [
+						"entity.name.type.class",
+						"support.class"
+				],
+				"settings": {
+						"foreground": "#009266"
+				}
+		}
+	]
+}
