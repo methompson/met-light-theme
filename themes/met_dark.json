@@ -6,7 +6,8 @@
 		{
 			"name": "Class",
 			"scope": [
-				"entity.name.type.class"
+				"entity.name.type.class",
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#ebaaff"
@@ -34,9 +35,10 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Dot Values",
 			"scope": [
 				"entity.name.function.member",
+				"meta.embedded"
 			],
 			"settings": {
 				"foreground": "#b8ff47"
@@ -46,6 +48,15 @@
 			"name": "Variables",
 			"scope": [
 				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#3be2ff"
+			}
+		},
+		{
+			"name": "JSON property",
+			"scope": [
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#3be2ff"
@@ -73,10 +84,20 @@
 		{
 			"name": "Boolean",
 			"scope": [
-				"constant.language.dart"
+				"constant.language.dart",
+				"constant.language.json",
 			],
 			"settings": {
 				"foreground": "#ffcc5d"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#a8ff61"
 			}
 		},
 		{

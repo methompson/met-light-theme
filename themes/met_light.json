@@ -49,8 +49,18 @@
 						"support.class"
 				],
 				"settings": {
-						"foreground": "#009266"
+						"foreground": "#007a56"
 				}
-		}
+		},
+		{
+			"name": "Dot Values",
+			"scope": [
+				"entity.name.function.member",
+				"meta.embedded"
+			],
+			"settings": {
+				"foreground": "#420097"
+			}
+		},
 	]
 }
