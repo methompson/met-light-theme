@@ -4,6 +4,15 @@
 	"include": "./solarized-dark-color-theme.json",
 	"tokenColors": [
 		{
+			"name": "Go Text",
+			"scope": [
+				"source.go",
+			],
+			"settings": {
+				"foreground": "#d7dda3"
+			}
+		},
+		{
 			"name": "Class",
 			"scope": [
 				"entity.name.type.class",
@@ -28,6 +37,7 @@
 			"scope": [
 				"variable.other.property",
 				"variable.other.readwrite",
+				"variable.other",
 				"storage.type.annotation.dart"
 			],
 			"settings": {
@@ -86,6 +96,7 @@
 			"scope": [
 				"constant.language.dart",
 				"constant.language.json",
+				"constant.language",
 			],
 			"settings": {
 				"foreground": "#ffcc5d"
@@ -121,7 +132,9 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
+				"support.function.go",
+				"support.function.builtin.go"
 			],
 			"settings": {
 				"foreground": "#ff8fd4"
@@ -130,6 +143,6 @@
 	],
 	"colors": {
 		"editor.background": "#002e3f",
-		"sideBar.background": "#002836"
+		"sideBar.background": "#002836",
 	}
 }
