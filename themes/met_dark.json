@@ -38,7 +38,10 @@
 				"variable.other.property",
 				"variable.other.readwrite",
 				"variable.other",
-				"storage.type.annotation.dart"
+				"storage.type.annotation.dart",
+				"storage.type.string.go",
+				"storage.type.boolean.go",
+				"storage.type.numeric.go"
 			],
 			"settings": {
 				"foreground": "#00ffb3"
