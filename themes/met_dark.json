@@ -149,8 +149,9 @@
 		"editor.background": "#002e3f",
 		"sideBar.background": "#002836",
 		"panel.border": "#00506d",
-
 		"editor.selectionBackground": "#ff000079",
-		"editor.selectionHighlightBackground": "#91ff0042"
+		"editor.selectionHighlightBackground": "#91ff0042",
+		"editor.wordHighlightBackground": "#91ff0042",
+		"editor.wordHighlightStrongBackground": "#91ff0042"
 	}
 }
