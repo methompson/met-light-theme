@@ -152,6 +152,11 @@
 		"editor.selectionBackground": "#ff000079",
 		"editor.selectionHighlightBackground": "#91ff0042",
 		"editor.wordHighlightBackground": "#91ff0042",
-		"editor.wordHighlightStrongBackground": "#91ff0042"
+		"editor.wordHighlightStrongBackground": "#91ff0042",
+		"tab.activeBackground": "#004052",
+		"tab.inactiveBackground": "#002B37",
+		"editorGroupHeader.tabsBackground": "#002B37",
+		// "tab.activeBackground": "#002B37",
+		// "tab.inactiveBackground": "#004052",
 	}
 }
